@@ -59,6 +59,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             return cell
         }
     }
+    // lay anh thu thu vien
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if indexPath.row == images.count {
